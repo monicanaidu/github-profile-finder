@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="logo">Github-Finder</a>
+        <div class="menu">
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <section class="container">
+        <div class="title">
+            <h1>Github Profile finder</h1>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <div class="form-item">
+                    <input type="search" name="key" id="key" class="form-input" placeholder="Enter your profile name">          
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body" id="profile">     
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body" id="repo">     
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>All Rights Reserved &copy; <strong id="yr"></strong></p>
+    </footer>
+    <script src="./github.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
